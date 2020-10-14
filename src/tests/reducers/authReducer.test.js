@@ -41,7 +41,7 @@ describe('Pruebas en AuthReducer', () => {
         expect( state ).toEqual( {} );
 
     });
-    test('debe de volver estado {}', () => {
+    test('debe de volver igual al initialState', () => {
        
         const initialState = {
             uid:'123132fasfaf',
